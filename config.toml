@@ -1,0 +1,33 @@
+baseURL = 'https://iwahara.github.io/'
+languageCode = 'ja-jp'
+title = 'Masaki Iwahara personal website'
+theme = 'hugo-coder'
+languagecode = "ja"
+defaultcontentlanguage = "ja"
+
+[markup.highlight]
+    style = "github-dark"
+
+[params]
+    author = "Masaki IWAHARA"
+    description = "Masaki Iwahara personal website"
+    keywords = "blog,developer,personal"
+    info = ["Full Backend Engineer"]
+    avatarURL = "images/profile_photo.png"
+    dateFormat = "2006/01/02"
+    enableTwemoji = true
+
+    colorScheme = "auto"
+    hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/iwahara/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter fa-2x"
+    weight = 2
+    url = "https://twitter.com/masaki_iwahara/"
